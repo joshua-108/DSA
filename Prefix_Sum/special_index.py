@@ -36,6 +36,7 @@ for i in range(1, N):
     else:
         pfEven[i] = pfEven[i-1]
 
+#prefix sum of odd index
 for i in range(1, N):
     if i%2 != 0:
         pfOdd[i] = pfOdd[i-1] + A[i]

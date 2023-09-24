@@ -38,6 +38,9 @@ def Solution(A):
 
     return -1
 
+    #TC = O(N)
+    #SC = O(N)
+
 if __name__ == '__main__':
     A = [-7, 1, 5, 2, -4, 3, 0]
     print(Solution(A))
