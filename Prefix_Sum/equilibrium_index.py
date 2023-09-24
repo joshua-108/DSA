@@ -40,5 +40,5 @@ def Solution(A):
 
 if __name__ == '__main__':
     A = [-7, 1, 5, 2, -4, 3, 0]
-    Solution(A)
+    print(Solution(A))
 
